@@ -8,7 +8,7 @@ Become more familar with HTML 5 and CSS3.  Build my skills as a developer.  The 
 
 ## Instructions
 
-```
+
 Browse through the tribute page.  Take some time to learn more about Craig David.
 
 
@@ -16,8 +16,7 @@ Browse through the tribute page.  Take some time to learn more about Craig David
 
 Simply click the link below.  
 
-
-
+https://fluent85.github.io/Craig-David-fanpage/fanpage.html
 
 
 ## Future development
