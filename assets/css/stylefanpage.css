@@ -1,0 +1,80 @@
+.header {
+}
+
+h1 {
+    text-align: center;
+    color: #faeeee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color:#faeeee;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    color: #FFFAFA;
+    font-size: medium;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+
+
+
+body {
+    background-image: linear-gradient(#0a0808,#272525)
+}
+
+.bio {
+    color: #FFFAFA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+
+
+#info {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+
+.albums {
+    color: #eee3e3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    font-size: medium; 
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#fill {
+    color: #faf4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;  
+    text-align: center;
+}
+
+#video {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #FFFAFA;
+}

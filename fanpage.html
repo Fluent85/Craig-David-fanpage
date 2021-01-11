@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Richard Tshabalala" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/stylefanpage.css" />
+        <title>Craig David Tribute webpage</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Richard Tshabalala">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equip="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/stylefanpage.css">
-    <title>Craig David Music bio webpage</title>
-</head>
-
-<body>
-    <h1>Craig David Tribute Page!</h1>
-    <img src="http://i.huffpost.com/gen/4040004/thumbs/o-CRAIG-DAVID-570.jpg?7" alt="Craig David profile picture" width="300" height="400" class="profile">
-    <hr>
-
-    <h2>Bio</h2>
-    <p id="bio"><strong>Craig Ashley David </strong>(born 5 May 1981) is an English singer, songwriter, rapper, DJ and record producer who rose to fame in 1999, featuring on the single "Re-Rewind" by Artful Dodger. David's debut studio album, Born to Do It, was released in 2000, after which he has released a further five studio albums and worked with a variety of artists such as: Tinchy Stryder, Big Narstie, Kano and Jay Sean. David has 20 UK Top 40 singles, and seven UK Top 40 albums, selling over 15,000,000 records worldwide as a solo artist. David has been nominated for fourteen Brit Awards: five times for Best British Male, and twice receiving a Grammy Award nomination for Best Male Pop Vocal Performance.</p>
-    <p id="info">Find more info about Craig David's music on his <a href="https://www.craigdavid.com">website.</a></p>
-    <hr>
-
-    <h2>Albums:</h2>
-    <ul>
-        <li class="albums">Born To Do It</li>
-        <li class="albums">Slicker Than Your Average</li>
-        <li class="albums">The Story Goes...</li>
-        <li class="albums">Trust Me</li>
-        <li class="albums">Following My Intuition</li>
-        <li class="albums">The Time is Now</li>
-
-    </ul>
-    <h2>Favorite Song:</h2>
-    <p id="fill">Fill Me In</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3imO7PFU5cI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
-
+    <body>
+        <header class="header">
+            <div class="tribute">
+                <h1>Craig David</h1>
+                <h3>The UK's finest R&B singer, songwriter</h3>
+                <img src="http://i.huffpost.com/gen/4040004/thumbs/o-CRAIG-DAVID-570.jpg?7" alt="Craig David profile picture" width="300" height="400" class="profile" />
+            </div>
+        </header>
+        <hr />
+        <Container class="Craig info">
+            <div class="bio">
+                <h2>Bio</h2>
+                <p><strong>Craig Ashley David </strong>(born 5 May 1981) is an English singer, songwriter, rapper, DJ and record producer who rose to fame in 1999, featuring on the single "Re-Rewind" by Artful Dodger. David's debut studio
+                    album, Born to Do It, was released in 2000, after which he has released a further five studio albums and worked with a variety of artists such as: Tinchy Stryder, Big Narstie, Kano and Jay Sean. David has 20 UK Top 40
+                    singles, and seven UK Top 40 albums, selling over 15,000,000 records worldwide as a solo artist. David has been nominated for fourteen Brit Awards: five times for Best British Male, and twice receiving a Grammy Award
+                    nomination for Best Male Pop Vocal Performance.</p>
+                <p>Find more info about Craig David's music on his <a href="https://www.craigdavid.com">website</a>, or his <a href="https://en.wikipedia.org/wiki/Craig_David">Wikipedia</a>.</p>
+            </div>
+            <hr/>
+            <h2>Albums</h2>
+                <div class="albums">
+                    <ul>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=dG1F89DetCM&list=PLdmxBh_pCFOuWdqkoLHjoqviazUU-heO9&index=1">Born To Do It</a></li>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=av8sLG-c5kE&list=PLF0AhMBAen_vENd5YPTSdUzSJ_DwBUKii">Slicker Than Your Average</a></li>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=qBYKBkqQsJE&list=PL2AF7DE102A312BED">The Story Goes...</a></li>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=TyuztCbrtGY&list=PLC7BE83C32FCA17C6&index=2">Trust Me</a></li>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=FC9fc12YYC4&list=PLLJxMCpuV2z0hZhA1QutRdyDOw7z9j7o7">Following My Intuition</a></li>
+                        <li class="albums"><a href="https://www.youtube.com/watch?v=jgQm-7Bmx0c&list=PLkLimRXN6NKzuMboOD6KoXwRqhrkgkkQP">The Time is Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </Container>
+        <hr/> 
+        <h2 id="Favorite song">Favorite Song</h2>
+        <p id="fill">Fill Me In</p>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3imO7PFU5cI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </body>
+    <br>
+    <footer>
+       <p>coded by<a target="_blank" href="https://github.com/Fluent85"> Richard Tshabalala</a></p>
+</footer>
 </html>
